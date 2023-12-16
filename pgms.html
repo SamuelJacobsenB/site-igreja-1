@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIBSGP-PGMs</title>
+    <link rel="stylesheet" href="./estilos/style.css" media="all">
+    <link rel="stylesheet" href="./estilos/media-queries.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100" rel="stylesheet" />
+    <link rel="shortcut icon" href="./imagens/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <img src="./imagens/foto-igreja-1.png" alt="Foto-igreja">
+        <span class="material-symbols-outlined" id="burguer" onclick="clickMenu()">menu</span>
+        <nav id="itens">
+            <ul>
+                <li><a href="./index.html">Principal</a></li>
+                <li><a href="./programas.html">Programas</a></li>
+                <li><a href="./pgms.html">PGMs</a></li>
+                <li><a href="./contribua.html">Contribua</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 class="degrade-baixo" id="margem-h1-bottom">PGMs</h1>  <br> 
+        <article>
+            <p class="prog"><strong>PGM ADOLESCENTES:</strong> <br> toda segunda-feira 19:30h (líderes: <b>Lenilda</b> - 99628-4959 e <b>Luãn</b> - 99641-9906).</p> <br> <br>
+            <p class="prog"><strong>PGM JOVENS:</strong> <br> toda terça-feira 19:30h (líderes: <b>Bill</b> - 99923-1323 e <b>Eduardo</b> - 99852-7307).</p> <br> <br>
+            <p class="prog"><strong>PGM "ATOS 2" - BAIRRO SANTA TEREZINHA:</strong> <br> toda quarta-feira 19h (líderes: <b>Pr Walace</b> - 99812-7107 e <b>Cibele</b> - 99947-8173).</p> <br> <br>
+            <p class="prog"><strong>PGM "PENIEL" - BAIRRO PROGRESSO:</strong> <br> toda quarta-feira 19h (líderes: <b>Getinho</b> - 99848-9602 e <b>Girlaine</b> - 99892-5396).</p> <br> <br> <br> <br> <br>
+        </article>
+    </main>
+    <footer>
+        <p class="degrade-baixo" id="local">Av.Graciano Neves - Centro - São Gabriel da Palha/ES (ao lado do Banco do Brasil)<br>
+            Tel.: 3727-1552 Celular: 98891-2756 / E-mail: pibsgp@yahoo.com.br
+        </p>
+    </footer>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>

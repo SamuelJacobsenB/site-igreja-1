@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIBSGP-Programas</title>
+    <link rel="stylesheet" href="./estilos/style.css" media="all">
+    <link rel="stylesheet" href="./estilos/media-queries.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100" rel="stylesheet" />
+    <link rel="shortcut icon" href="./imagens/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <img src="./imagens/foto-igreja-1.png" alt="Foto-igreja">
+        <span class="material-symbols-outlined" id="burguer" onclick="clickMenu()">menu</span>
+        <nav id="itens">
+            <ul>
+                <li><a href="./index.html">Principal</a></li>
+                <li><a href="./programas.html">Programas</a></li>
+                <li><a href="./pgms.html">PGMs</a></li>
+                <li><a href="./contribua.html">Contribua</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 class="degrade-baixo">Atividades Semanais</h1>
+        <article class="prog">
+            <p class="prog"><u>Domingo:</u><br>
+            Escola Bíblica: 08h30 &nbsp; &nbsp; / &nbsp; &nbsp; Mensageiras e Embaixadores do Rei: 17h30 <br>
+            Culto: 19h
+        </p>
+            <p class="prog"><u>Segunda-feira:</u><br>
+            Mulheres que oram: 18h30
+        </p>
+            <p class="prog"><u>Quinta-feira</u><br>
+            Culto: 19h30
+        </p>
+            <p class="prog"><u>Sexta-feira:</u><br>
+            Ensaio do Min. Louvor: 19h
+        </p>
+        </article>
+        <h1 class="degrade-baixo" id="margem-h1-top">Fique por Dentro</h1>
+        <aside>
+            <img src="#" alt="Foto cantata Natal Brasileiro">
+            <img src="#" alt=" Foto do Retiro">
+            <p class="sem-indent">
+                <strong>ASSEMBLEIA EXTRAORDINÁRIA:</strong> dia <b>17/12 (domingo)</b> pela manhã para eleição da nova diretoria.
+            </p>
+            <p class="sem-indent">
+                <strong>AÇÃO SOCIAL:</strong> estamos nos aproximando do Natal e contamos com os amados irmãos para doação de alimentos para nossas cestas básicas dessa data tão especial.Há muitas famílias procurando. Caso o irmão possa doar pode levar em dias de culto ou mesmo durante a semana deixar na secretaria da igreja. Doe <b>alimentos</b> ou se puder uma <b>cesta completa básica</b>. <br> <br>
+
+                Abaixo segue os itens da cesta: <br> <br>
+                
+                Arroz, Açúcar, Café, Feijão, Farinha De Trigo, Macarrão, Sal, Farinha de mandioca,Fubá, Óleo de soja, Leite, Achocolatado, Biscoito, Extrato de tomate, Creme dental, Sabonete, Sabão em barra, Detergente.
+                
+                Caso o irmão deseje também doe 1 suco de uva e 1 caixa de bombom, muitas famílias têm crianças e nesse mês especial seria uma grande alegria podermos abençoar as crianças com um docinho também na cesta básica. <br> <br>
+                
+                <i>"Tenho-vos mostrado em tudo que, trabalhando assim, é necessário socorrer os enfermos, e lembrar as palavras do Senhor Jesus, que disse: Mais bem-aventurada coisa é dar do que receber." Atos 20:35</i>
+            </p>
+        </aside>
+    </main>
+    <footer>
+        <p class="degrade-baixo" id="local">Av.Graciano Neves - Centro - São Gabriel da Palha/ES (ao lado do Banco do Brasil)<br>
+            Tel.: 3727-1552 Celular: 98891-2756 / E-mail: pibsgp@yahoo.com.br
+        </p>
+    </footer>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>

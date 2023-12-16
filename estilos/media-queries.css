@@ -1,0 +1,201 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 600px) {
+
+    * {
+        margin: 0px;
+        padding: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    body {
+        background-color: rgb(255, 244, 230);
+    }
+    
+    
+    header {
+        background-color: white;
+        padding: 10px;
+        padding-bottom: 0px;
+        max-height: 300px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.26);
+    }
+    
+    header > img {
+        display: block;
+        margin: auto;
+        max-width: 250px;
+    }
+    
+    header nav {
+        display: block;
+        padding: 10px;
+        margin: auto;
+    }
+    
+    header > nav#tela-g > ul {
+        display: inline-block;
+        height: 48px;
+    }
+    
+    header li {
+        display: inline-block;
+        font-size: 16px;
+        padding: 8px;
+        margin: 5px;
+        background-color: rgb(233, 233, 233);
+        border-radius: 5px;
+        box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.128);
+    }
+    
+    header li:hover {
+        text-decoration: underline;
+        background-color: rgb(244, 252, 255);
+        box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+        transition: 0.4s;
+    }
+    
+    header a {
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;
+        color: rgba(0, 0, 0, 0.838);
+    }
+    
+    main {
+        margin: auto;
+        max-width: 900px;
+        padding: 10px;
+        padding-bottom: 0px;
+        background-color: white;
+    }
+    
+    main > h1 {
+        text-align: center;
+        max-width: 900px;
+        font-weight: bolder;
+    }
+    
+    main > h2 {
+        text-align: center;
+        padding-top: 20px;
+    }
+    
+    u {
+        font-size: 1.2em;
+    }
+    
+    strong {
+        color: black;
+        background-color: rgba(117, 163, 255, 0.831);
+    }
+    
+    p {
+        text-indent: 15px;
+        text-align: justify;
+        line-height: 22px;
+        font-weight: lighter;
+        font-size: 16px;
+        padding: 10px;
+        padding-bottom: 5px;
+    }
+    
+    p > img {
+        display: block;
+        margin: auto;
+    }
+    
+    section {
+        margin: auto;
+        max-width: 900px;
+        padding: 10px;
+        padding-bottom: 50px;
+        background-color: white;
+    }
+    
+    section > h2 {
+        font-weight: bolder;
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+    section li {
+        display: inline;
+        list-style: none;
+        line-height: 24px;
+        padding: 10px;
+    }
+    
+    section img {
+        max-width: 30px;
+    }
+    
+    section a {
+        color: black;
+    }
+    
+    aside {
+        padding: 10px;
+        padding-bottom: 30px;
+    }
+    
+    aside img {
+        display: block;
+        margin: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    footer {
+        max-width: 920px;
+        margin: auto;
+    }
+    
+    .escrito-por {
+        font-weight: bold;
+        text-align: right;
+    }
+    
+    .degrade-baixo {
+        background-image: linear-gradient(to bottom, rgba(0, 85, 255, 0.557), rgba(255, 255, 255, 0));
+    }
+    
+    p.degrade-cima {
+        background-image: linear-gradient(to top,rgba(0, 85, 255, 0.557), rgba(255, 255, 255, 0));
+    }
+    
+    p.sem-indent {
+        text-indent: 0px;
+    }
+    
+    .prog {
+        text-align: center;
+        line-height: 30px;
+    }
+    
+    .azul {
+        padding: 10px;
+        color: rgba(0, 68, 205, 0.831);
+        text-align: left;
+    }
+    
+    #margem-h1-top {
+        margin-top: 30px;
+    }
+    
+    #margem-h1-bottom {
+        margin-bottom: 20px;
+    }
+    
+    #local {
+        font-size: 0.9em;
+        font-weight: bold;
+        text-align: center;
+        padding: 0px 0px 0px 0px;
+    }
+
+    nav#itens { display: none; }
+    nav#tela-g { display: block; }
+    span#burguer { display: none; }
+
+}
