@@ -9,19 +9,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100" rel="stylesheet" />
     <title>PIBSGP-principal</title>
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <img src="./imagens/foto-igreja-1.png" alt="Foto-igreja">
         <span class="material-symbols-outlined" id="burguer" onclick="clickMenu()">menu</span>
         <nav id="itens">
-            <ul>
-                <li><a href="./index.html">Principal</a></li>
-                <li><a href="./programas.html">Programas</a></li>
-                <li><a href="./pgms.html">PGMs</a></li>
-                <li><a href="./contribua.html">Contribua</a></li>
-            </ul>
-        </nav>
-        <nav id="tela-g">
             <ul>
                 <li><a href="./index.html">Principal</a></li>
                 <li><a href="./programas.html">Programas</a></li>
@@ -60,6 +52,15 @@
         </p>
     </footer>
     <script>
+
+        function mudouTamanho() {
+            if (window.innerWidth >= 600) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+
         function clickMenu() {
             if (itens.style.display == 'block') {
                 itens.style.display = 'none'

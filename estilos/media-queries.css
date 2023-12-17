@@ -33,7 +33,7 @@
         margin: auto;
     }
     
-    header > nav#tela-g > ul {
+    header > nav#itens > ul {
         display: inline-block;
         height: 48px;
     }
@@ -194,8 +194,7 @@
         padding: 0px 0px 0px 0px;
     }
 
-    nav#itens { display: none; }
-    nav#tela-g { display: block; }
+    
     span#burguer { display: none; }
 
 }
